@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name = "author" content = "Web-Publisher">
+    <meta name = "description" content = "outback is family restautant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no, maximum-scale = 1.0, minimum-scale = 1.0">
+    <meta http-equiv="U-XA-Compatible" content = "ie=edge">
+
+    <!-- http://ogp.me/ -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Outback">
+    <meta property="og:title" content="Outback Restaurant Main Page">
+    <meta property="og:description" content="Outback Restaurant is family restaurant">
+    <meta property="og:image" content="https://www.outback.co.kr/upload/mainVisual/20200309/20200309174056840001.jpg">
+    <meta property="og:url" content="https://www.outback.co.kr"> <!-- 페이지 제작 후 이것으로 연결 -->
+    
+
+    <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+    <meta property="twitter:card" content="website">
+    <meta property="twitter:site" content="Outback">
+    <meta property="twitter:title" content="Outback Restaurant Main Page">
+    <meta property="twitter:description" content="Outback Restaurant is family restaurant">
+    <meta property="twitter:image" content="https://www.outback.co.kr/upload/mainVisual/20200309/20200309174056840001.jpg">
+    <meta property="twitter:url" content="https://www.outback.co.kr">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="shortcut icon" type = "image/x-icon" href="https://www.outback.co.kr/asset/images/common/favicon.ico?v=2">
+    <link rel="icon" href="https://www.outback.co.kr/asset/images/common/favicon.ico?v=2">
+    <link rel="apple-touch-icon" href="https://www.outback.co.kr/asset/images/common/favicon.ico?v=2">
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+
+    <title>Outback</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src = "main.js" defer></script>    
+</head>
+<body>
+<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<div class="body__container">
+
+    <!-- header -->
+    <header class = "section clearfix" id = "nav-menu">
+
+        <div class="inner">   
+
+            <div class="menu-group float--left">
+
+                <div class="logo">
+                    <a href="#">OUTBACK</a>
+                </div>
+
+                <ul class="main-menu">
+                    <li><a href="#">BRAND</a>
+                        <ul>
+                            <li><a href="#">OUTBACK STORY</a></li>
+                            <li><a href="#">BEEF STORY</a></li>
+                            <li><a href="#">STEAK ACADEMY</a></li>
+                            <li><a href="#">OUTBACK CSR</a></li>
+                            <li><a href="#">PRESS CENTER</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">MENU</a>
+                        <ul>
+                            <li><a href="#">T-BONE STEAK</a></li>
+                            <li><a href="#">TOMAHAWK STEAK</a></li>
+                            <li><a href="#">BLACK LABEL STEAKS</a></li>
+                            <li><a href="#">OUTBACK STEAK SPECIALS</a></li>
+                            <li><a href="#">FAVORITES</a></li>
+                            <li><a href="#">LUNCH SET</a></li>
+                            <li><a href="#">PASTAS ＆ SALADS</a></li>
+                            <li><a href="#">DESSERTS ＆ OTHERS</a></li>
+                            <li><a href="#">KIDS MENU</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">MEMBERSHIP</a>
+                        <ul>
+                            <li><a href="#">MEMBERSHIP BENEFIT</a></li>
+                            <li><a href="#">BOOMERANG VIP</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BENEFIT</a>
+                        <ul>
+                            <li><a href="#">CREDIT CARDS</a></li>
+                            <li><a href="#">SKT＆KT</a></li>
+                            <li><a href="#">POINT PAYMENT</a></li>
+                            <li><a href="#">VOUCHER</a></li>
+                            <li><a href="#">EVENT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">STORE</a>
+                    
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="sign-group float--right">
+
+                <form id = "search-form" action="">
+                        <!-- <input type="text" id = "search" class = "input--text" placeholder="메뉴 검색하기"> -->
+                        <!-- <input type="submit" value = "submit"> -->
+                </form>
+
+                <ul class="sub-menu">
+                    <li><a href="#">고객의 소리</a></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- visual -->
+    <section class = "section section--visual">
+        <div class="slide--content">
+            <div class="slide">
+                <ul class="panel">
+                    <li><img src="img/menu1.jpg" alt="1번메뉴"></li>
+                    <li><img src="img/menu3.jpg" alt="2번메뉴"></li>
+                    <li><img src="img/menu4.jpg" alt="3번메뉴"></li>
+                    <li><img src="img/menu2.jpg" alt="4번메뉴"></li>
+                </ul>
+                <ul class="dot">
+                    <li class="on">슬라이드 버튼1번</li>
+                    <li>슬라이드 버튼2번</li>
+                    <li>슬라이드 버튼3번</li>
+                    <li>슬라이드 버튼4번</li>
+                </ul>
+                <div class="prev"><img src="img/btn_main_visual_prev_on.png" alt="이전 화살표"></div>
+                <div class="next"><img src="img/btn_main_visual_next_on.png" alt="다음 화살표"></div>
+            </div>   
+        </div>
+        
+    </section>
+
+    <!-- feature -->
+    <section class="section section--feature">
+        <div class="inner">
+
+            <div class="video-summary">
+
+                <div class="video">
+                    <div class="video-ratio">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7dVwlbHvV0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+        
+                <div class="summary">
+                    <div class="summary--description">
+                        <h1>BRAND CAMPAIGN<br>
+                            OUTBACK CF</h1><br>
+                        <h3>아웃백 토마호크 스테이크</h3><br>
+                
+                        <p>빠져들 수 밖에 없는 예술적인 스테이크<br>
+                           아웃백 토마호크 스테이크를 지금 감상해 보세요</p>
+                    </div>       
+                </div>
+
+            </div>
+            
+
+            <div class="tiles">
+                <p class = "menu-title">Today's Menu</p>
+                <ul>
+                    <li>
+                        <img src="img/ribs.jpg" alt="갈릭 립아이">
+                        <h3>GARLIC RIBEYE</h3>
+                        <p>발사믹 소스에 조리한 마늘이 어우러진 꽃등심 스테이크</p>
+                    </li>
+                    <li>
+                        <img src="img/fries.jpg" alt="오지 치즈 후라이즈">
+                        <h3>AUSSIE CHEESE FRIES</h3>
+                        <p>두툼한 감자튀김에 체다치즈, 잭치즈를 듬뿍 녹여 베이컨을 뿌린 메뉴</p>
+                    </li>
+                    <li>
+                        <img src="img/shrimps.jpg" alt="골드 코스트 코코넛 슈림프">
+                        <h3>GOLD COCONUT SHRIMP</h3>
+                        <p>달콤하고 고소한 코코넛 가루를 묻혀 바삭하게 튀긴 새우 요리</p>
+                    </li>
+                    <li>
+                        <img src="img/ribeye.jpg" alt="베이비 백 립">
+                        <h3>BABY BACK RIBS</h3>
+                        <p>부드러운 돼지갈비에 아웃백만의 특제 소스를 발라 구워낸 바비큐 요리</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="order-option">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="img/speed_menu_title_02.png" alt="예약하기">
+                            <p>예약하기</p>
+                            <img src="img/speed_menu_icon_02.png" alt="네이버">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/speed_menu_title_03.png" alt="사후적립">
+                            <p>사후 적립</p>
+                            <img src="img/speed_menu_icon_03.png" alt="포인트">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/speed_menu_title_04.png" alt="배달">
+                            <p>딜리버리 전화주문<br>
+                                1811-3650 </p>
+                            <img src="img/speed_menu_icon_04.png" alt="딜리버리">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-reward">
+                <div class="card-initial">
+                    <h1>OUTBACK CARD<br><em>REWARD</em></h1>
+                    <p>아웃백 카드<br>
+                       리워드 혜택을 만나보세요
+                    </p>
+                    <a href="#">자세히 보기</a>
+                </div>
+                <ol>
+                    <li>
+                        <em>01</em>
+                        <p class="reward--list">
+                            생맥주 2잔 4,500원
+                        </p>
+                        <p class="reward--description">
+                            카스 생맥주 2잔을 4,500원에<br>
+                            즐길 수 있는 혜택 제공
+                        </p>
+                    </li>
+                    <li>
+                        <em>02</em>
+                        <p class="reward--list">
+                            2020 신규가입 웰컴 쿠폰
+                        </p>
+                        <p class="reward--description">
+                            2020 신규 아웃백 회원을 위한<br>
+                            ‘골드 코스트 코코넛 슈림프’ 웰컴 쿠폰    
+                        </p>
+                    </li>
+                    <li>
+                        <em>03</em>
+                        <p class="reward--list">
+                            1년 1회, 생일기념 쿠폰
+                        </p>
+                        <p class="reward--description">
+                            소중한 당신의 생일, 아웃백에서<br>
+                            1만원 할인 혜택 제공
+                        </p>
+                    </li>
+                    <li>
+                        <em>04</em>
+                        <p class="reward--list">
+                            블랙라벨 스테이크 할인쿠폰
+                        </p>
+                        <p class="reward--description">
+                            블랙라벨 스테이크 한정<br>
+                            1만원 할인 쿠폰 제공!
+                             
+                        </p>
+                    </li>
+                    <li>
+                        <em>05</em>
+                        <p class="reward--list">
+                            10% 할인 또는 3% 적립
+                        </p>
+                        <p class="reward--description">
+                            아웃백 카드만 있다면<br>
+                            10% 할인 또는 3% 적립!
+                        </p>
+                    </li>
+                    <li>
+                        <em>06</em>
+                        <p class="reward--list">
+                            아웃백 회원전용 이벤트 참여
+                        </p>
+                        <p class="reward--description">
+                            아웃백 전용 다양한 이벤트<br>
+                            참여 기회 제공                
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section">
+        <div class="inner">
+
+            <div class="footer--group">
+
+                <div class="logo">
+                    <a href="#">OUTBACK</a>
+                </div>
+    
+                <ul class = "outback-menual">
+                    <li>사업자등록번호 : 211-86-42619</li>
+                    <li>ⓒ 2018 OUTBACK STEAKHOUSE, All Rights Rerserved.</li>
+                    <li>
+                        <ul class = "manual-request">
+                            <li><a href="#">아웃백 소개</a></li>
+                            <li><a href="#">채용 안내</a></li>
+                            <li><a href="#">신규 입점 제의</a></li>
+                        </ul>
+                    </li>
+                    <li>홈페이지 관련 문의&nbsp;&nbsp;&nbsp;<strong>070-7096-0416</strong></li> 
+                    <li>대표번호&nbsp;<strong>1577-0500</strong>&nbsp;&nbsp;/&nbsp;&nbsp;딜리버리 주문번호 &nbsp;<strong>1811-3650</strong></li>
+                    <li>상담시간 : 월~금 10:00~17:00</li>
+                    <li>(토/일, 공휴일 휴무, 점심시간 12:00~13:30)</li>
+
+                </ul>
+
+                <div class="site-links">
+
+                    <ul class = "homepage-links">
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">홈페이지 이용약관</a></li>
+                        <li><a href="#">위치정보 이용약관</a></li>
+                        <li><a href="#">윤리경영</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">모바일 아웃백</a></li>
+                        <li><a href="#">사이트맵</a></li>
+                    </ul>
+
+                   <ul class="icon--list">
+                        <li><a class = "Instagram" href="#">Instagram</a></li>
+                        <li><a class = "Facebook" href="#">Facebook</a></li>
+                        <li><a class = "Youtube" href="#">Youtube</a></li>
+                        <li><a class = "Kakao" href="#">Kakao</a></li>
+                   </ul>
+
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </footer>
+
+    
+</div>
+</body>
+</html>
